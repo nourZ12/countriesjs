@@ -1,0 +1,87 @@
+*{
+    font-family: Stylish;
+    font-size: 1.04em;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    padding-left: 0;
+}
+body{
+    background-image: url(map.png);
+    margin: 2%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 70%;
+      
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    left: 35%;
+}
+
+.card-style{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+}
+.row:hover{
+    background-color: lightgrey;
+}
+.row{
+    text-align: left;
+   
+}
+.col-sm-{
+    width: 50%;
+
+}
+@media only screen and (max-width: 1060px){
+     *{font-size: 1.05em;}
+    body{
+        background-size: 100% 50%;
+    }
+    .card-style{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .card-style{
+        width: 55%;
+    }
+}
+@media only screen and (max-width: 810px){
+    body{
+        background-size: 100% 40%;
+    }
+    .card-style{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 670px){
+    body{
+        background-size: 100% 30%;
+    }
+    .card-style{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 480px){
+     *{font-size: 1.01em;}
+    body{
+        background-size: 100% 25%;
+    }
+    .card-style{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 330px){
+     *{font-size: 1em;}
+ 
+    .card-style{
+        width: 100%;
+    }
+}
